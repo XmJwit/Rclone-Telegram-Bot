@@ -47,10 +47,12 @@ In case you have a previously cloned local repository already, you should initia
 Step 2. Prerequisite For Starting The Bot
 ---------------------------------
 * Configure the Rclone like- adding the drive to rclone
-* Add this to config file 
+* Add this to config file in Every Drive
   ```
   server_side_across_configs = true
   ```
+  ![image](https://i.imgur.com/g8fWyHs.png)
+
   To find the location of Rclone Config File type
   ```
   rclone config file
